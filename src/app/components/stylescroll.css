@@ -1,0 +1,14 @@
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;     
+  }
+
+  @media screen and (min-height: 800px) {
+    .bt{
+      margin-bottom: 3%;
+    }
+  }
