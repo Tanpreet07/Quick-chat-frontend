@@ -7,5 +7,6 @@ export const authoptions = NextAuth({
         clientSecret: process.env.GOOGLE_SECRET
       })
     ],
+    secret: process.env.NEXTAUTH_SECRET
   })
 export {authoptions as GET, authoptions as POST}
