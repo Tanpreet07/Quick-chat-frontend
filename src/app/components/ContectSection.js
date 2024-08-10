@@ -94,7 +94,7 @@ const ContectSection = (props) => {
                 !search ? <button key={index} className='w-80 mt-2 border-2 border-black h-[75px] flex items-center rounded-xl hover:bg-[rgb(56,56,56)] max-[450px]:w-[90%]' onClick={() => { setshowchatbox(true), setcurrentuser(item), props.setshow(true) }}>
                   <img src={item.friendprofile} alt="" width={65} height={55} className='rounded-full ms-1' />
                   <p className='ms-2 font-bold'>{item.friendname}</p>
-                </button> : item.friendname.includes(search) && <button key={index} className='w-80 mt-2 border-2 border-black h-[75px] flex items-center rounded-xl hover:bg-slate-100' onClick={() => { setshowchatbox(true), setcurrentuser(item) }}>
+                </button> : item.friendname.includes(search) && <button key={index} className='w-80 mt-2 border-2 border-black h-[75px] flex items-center rounded-xl hover:bg-[rgb(56,56,56)] max-[450px]:w-[90%]' onClick={() => { setshowchatbox(true), setcurrentuser(item), props.setshow(true) }}>
                   <img src={item.friendprofile} alt="" width={65} height={55} className='rounded-full ms-1' />
                   <p className='ms-2 font-bold'>{item.friendname}</p>
                 </button>
