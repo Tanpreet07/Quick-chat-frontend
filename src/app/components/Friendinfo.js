@@ -30,7 +30,7 @@ const Friendinfo = () => {
         </Button>
       </PopoverTrigger>
       <PopoverContent className="bg-[rgb(48,48,48)] shadow-md shadow-black text-white w-80 h-[300px]">
-        <h3 className="w-full ms-2 font-bold">Contect info</h3>
+        <h3 className="w-full ms-2 font-bold">Contact info</h3>
         <div className="px-1 py-2 w-full flex flex-col items-center mt-2">
           <div>
             <img
@@ -49,7 +49,7 @@ const Friendinfo = () => {
             className="text-red-600 mt-5 hover:bg-[rgb(65,65,65)] rounded-md px-2 py-1"
             onClick={Deletechat}
           >
-            Delete contect
+            Delete contact
           </button>
         </div>
       </PopoverContent>
